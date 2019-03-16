@@ -59,7 +59,23 @@ abcFactorManual = factor(
   levels = c('C','A','B')
 )
 ```
-#### D. Access elements in Vector
+
+#### D. logical vector
+```
+numVec = sample(x = 1:100, size=100)
+
+set.seed(1056)
+numVec = sample(x = 1:100, size=100)
+
+# find 45
+numvec == 45
+
+idx = numvec == 45
+
+numvec[idx]
+```
+
+#### E. Access elements in Vector
 ```{}
 myNumbersManual = c(1,2,3)
 # or
